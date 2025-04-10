@@ -10,24 +10,12 @@ body
   background: #F0EFE2;
   color: #000;}
 
-
-#site content {
-    width: 854px;
-    overflow: hidden;
-    margin: auto 0 auto 0;
-    padding: 24px 26px 26px;
-    background: #f0f0f0; /* हल्का ग्रे */
-}
-
 p
 { padding: 0 0 20px 0;
   line-height: 1.7em;}
 
-img {
-    border: 0;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3); 
-}
-
+img
+{ border: 0;}
 
 h1, h2, h3, h4, h5, h6 
 { font: normal 175% 'century gothic', arial, sans-serif;
@@ -54,19 +42,6 @@ a, a:hover
 
 a:hover
 { text-decoration: none;}
-
-@media (max-width: 600px) {
-    .navbar {
-        flex-direction: column;
-    }
-    img {
-        width: 100%;
-        height: auto;
-    }
-    body {
-        font-size: 14px; 
-    }
-}
 
 .left
 { float: left;
@@ -172,7 +147,7 @@ ul#menu li a
 
 ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 { color: #FFF;
-}
+  background: transparent;}
 
 #site_content
 { width: 854px;
@@ -198,7 +173,7 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 .sidebar li a, .sidebar li a:hover
 { padding: 0 0 0 40px;
   display: block;
-}
+  /* background: transparent url(link.png) no-repeat left center;}  */
 
 .sidebar li a.selected
 { color: #7E2451;
@@ -322,4 +297,5 @@ table tr th, table tr td
 table tr td
 { background: #F0EFE2;
   color: #47433F;
-  border-top: 1px solid #FFF;}
+  border-top: 1px solid #FFF;
+}
