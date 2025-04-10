@@ -5,10 +5,18 @@ html
 { margin: 0;
   padding: 0;}
 
-body
-{ font: normal .82em 'trebuchet ms', arial, sans-serif;
-  background: #F0EFE2 url(background.png) repeat;
-  color: #000;}
+body {
+    font: normal .82em "trebuchet ms", arial, sans-serif;
+    background: linear-gradient(to right, #0FEF2, #fff); 
+}
+
+#site content {
+    width: 854px;
+    overflow: hidden;
+    margin: auto 0 auto 0;
+    padding: 24px 26px 26px;
+    background: #f0f0f0; /* हल्का ग्रे */
+}
 
 p
 { padding: 0 0 20px 0;
@@ -163,7 +171,7 @@ ul#menu li a
 
 ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 { color: #FFF;
-  background: transparent url(transparent_light.png) repeat;}
+}
 
 #site_content
 { width: 854px;
@@ -189,7 +197,7 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 .sidebar li a, .sidebar li a:hover
 { padding: 0 0 0 40px;
   display: block;
-  /* background: transparent url(link.png) no-repeat left center;}  */
+}
 
 .sidebar li a.selected
 { color: #7E2451;
