@@ -5,10 +5,11 @@ html
 { margin: 0;
   padding: 0;}
 
-body {
-    font: normal .82em "trebuchet ms", arial, sans-serif;
-    background: linear-gradient(to right, #0FEF2, #fff); 
-}
+body
+{ font: normal .82em 'trebuchet ms', arial, sans-serif;
+  background: #F0EFE2;
+  color: #000;}
+
 
 #site content {
     width: 854px;
