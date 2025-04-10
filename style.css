@@ -14,8 +14,11 @@ p
 { padding: 0 0 20px 0;
   line-height: 1.7em;}
 
-img
-{ border: 0;}
+img {
+    border: 2px solid #ddd;
+    box-shadow: 2px 2px 5px #888;
+}
+
 
 h1, h2, h3, h4, h5, h6 
 { font: normal 175% 'century gothic', arial, sans-serif;
@@ -42,6 +45,16 @@ a, a:hover
 
 a:hover
 { text-decoration: none;}
+
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
 
 .left
 { float: left;
